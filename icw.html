@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Numbers to words</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">Back to Home Page</a> |
+      <a href="about.html">Apple Commercial</a>
+    </div>
+    <div class="check">
+      <h4>Convert numbers to words using JavaScript</h4>
+      <input id="Text1" type="text" onkeypress="return onlyNumbers(this.value);" onkeyup="NumToWord(this.value,'divDisplayWords');" maxlength="10"  />
+    </div>
+    <div class="check">
+      <h4>
+        <h3>
+          <div.handwrittening id="divDisplayWords"></div>
+        </h3>
+        <h5><i>sponsored by</i><strong> Red Bull</strong></h5>
+      </h4>
+    </div>
+      <footer>
+        <a class="entertime" id="date"></a>
+        <h5>@SCC<br></h5>
+      </footer>
+
+          <script>document.getElementById("date").innerHTML = Date();</script>
+          <script src="icword.js"></script>
+    </div>
+  </body>
+</html>
